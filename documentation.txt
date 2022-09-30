@@ -4,4 +4,6 @@ Window().clear_screen() -> NONE | Resets the screens view.
 
 Window().generate_border(id, position_x, position_y, size_x, size_y, symbol) -> (string, int, int, int, int, character) | Generates a non-filled square.
 
-Window().generate_square(id, position_x, position_y, size_x, size_y, symbol) -> (string, int, int, int, int, character) | Generates a filled square
+Window().generate_square(id, position_x, position_y, size_x, size_y, symbol) -> (string, int, int, int, int, character) | Generates a filled square.
+
+Window().display() -> NONE | Displays the screen.
